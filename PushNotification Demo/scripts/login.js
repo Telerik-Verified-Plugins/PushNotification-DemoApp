@@ -14,8 +14,8 @@
             },
         
             show : function () {
-                $username.val('');
-                $password.val('');
+                $username.val(localStorage.getItem("user.username"));
+                $password.val(localStorage.getItem("user.password"));
             }   
         }
         
@@ -23,6 +23,9 @@
             var username = $username.val(),
                 password = $password.val();
             
+            localStorage.setItem("user.username", username);
+            localStorage.setItem("user.password", password);
+
             app.showLoading();
 			
             app.everlive.Users.login(username, password).then(function (data) {
