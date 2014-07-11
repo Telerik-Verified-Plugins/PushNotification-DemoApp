@@ -4,7 +4,7 @@
   "AppIdentifier": "com.telerik.plugindemo.pushnotification",
   "ProjectName": "PushNotification Demo",
   "IsRunnable": "true",
-  "FrameworkVersion": "3.2.0",
+  "FrameworkVersion": "3.5.0",
   "AndroidPermissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
@@ -47,7 +47,7 @@
   "BundleVersion": "1.0",
   "DisplayName": "PushNotification plugin demo",
   "Author": "Telerik",
-  "Description": "PushSample",
+  "Description": "Sample app for the Cordova PushNotification plugin",
   "iOSDeviceFamily": [
     "1",
     "2"
