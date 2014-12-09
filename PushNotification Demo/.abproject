@@ -46,7 +46,7 @@
     "ID_RESOLUTION_HD720P"
   ],
   "BundleVersion": "1.0",
-  "DisplayName": "PushNotification plugin demo",
+  "DisplayName": "Telerik Push Notifications sample",
   "Author": "Telerik",
   "Description": "Sample for the Telerik Push Notifications plugin",
   "iOSDeviceFamily": [
