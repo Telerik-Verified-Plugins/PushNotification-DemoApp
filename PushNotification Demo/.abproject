@@ -31,7 +31,8 @@
     "org.apache.cordova.globalization",
     "org.apache.cordova.network-information",
     "org.apache.cordova.dialogs",
-    "org.apache.cordova.splashscreen"
+    "org.apache.cordova.splashscreen",
+    "com.phonegap.plugins.PushPlugin@2.4.3"
   ],
   "DeviceOrientations": [
     "Portrait",
@@ -45,9 +46,9 @@
     "ID_RESOLUTION_HD720P"
   ],
   "BundleVersion": "1.0",
-  "DisplayName": "PushNotification plugin demo",
+  "DisplayName": "Telerik Push Notifications sample",
   "Author": "Telerik",
-  "Description": "Sample app for the Cordova PushNotification plugin",
+  "Description": "Sample for the Telerik Push Notifications plugin",
   "iOSDeviceFamily": [
     "1",
     "2"
@@ -60,5 +61,10 @@
   "WP8ProductID": "{f6aa10b5-74a3-4b54-bfc8-2e3db2ed4bb4}",
   "WP8PublisherID": "{189efa1b-b563-4a60-b4bf-4d350867391f}",
   "WP8Publisher": "",
-  "Framework": "Cordova"
+  "Framework": "Cordova",
+  "CordovaPluginVariables": {
+    "com.telerik.mobiletesting": {
+      "IOS_APP_URL": ""
+    }
+  }
 }
