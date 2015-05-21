@@ -57,7 +57,7 @@
   "AndroidVersionCode": "1",
   "WP8Requirements": [],
   "WP8Capabilities": [],
-  "WP8TileTitle": "",
+  "WP8TileTitle": "Push Demo App",
   "WP8ProductID": "{f6aa10b5-74a3-4b54-bfc8-2e3db2ed4bb4}",
   "WP8PublisherID": "{189efa1b-b563-4a60-b4bf-4d350867391f}",
   "WP8Publisher": "",
