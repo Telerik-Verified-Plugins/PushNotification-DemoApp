@@ -26,7 +26,7 @@
     "android.permission.WRITE_EXTERNAL_STORAGE"
   ],
   "CorePlugins": [
-    "com.telerik.feedback@1.4",
+    "com.phonegap.plugins.PushPlugin@2.5.5",
     "org.apache.cordova.device",
     "org.apache.cordova.device-orientation",
     "org.apache.cordova.dialogs",
@@ -62,8 +62,8 @@
   "WP8PublisherID": "{189efa1b-b563-4a60-b4bf-4d350867391f}",
   "WP8Publisher": "",
   "Framework": "Cordova",
-  "CordovaPluginVariables": {},
   "projectVersion": "1",
   "WP8WindowsPublisherName": "CN=Telerik",
-  "WP8PackageIdentityName": "1234Telerik.com.telerik.plugindemo.pushnotificatio"
+  "WP8PackageIdentityName": "1234Telerik.com.telerik.plugindemo.pushnotificatio",
+  "WPSdk": "8.0"
 }
