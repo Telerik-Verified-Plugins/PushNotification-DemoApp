@@ -12,17 +12,22 @@
         }
     };
 
+	app.everlive = new Everlive({
+            apiKey: app.config.everlive.apiKey,
+            scheme: app.config.everlive.scheme
+        });
+	
     var onDeviceReady = function() {
 
       // app feedback
-var feedbackOptions = {
-    enableShake: true // shake to show the feedback dialog, default true
-};
+		var feedbackOptions = {
+	    	enableShake: true // shake to show the feedback dialog, default true
+		};
 
-window.feedback.initialize(
-    "65902400-041f-11e4-be38-73f40f037825",
-    feedbackOptions
-);
+		window.feedback.initialize(
+		    "65902400-041f-11e4-be38-73f40f037825",
+		    feedbackOptions
+		);
 
         navigator.splashscreen.hide();
         
@@ -36,17 +41,12 @@ window.feedback.initialize(
 
         var os = kendo.support.mobileOS,
         	statusBarStyle = os.ios && os.flatVersion >= 700 ? 'black-translucent' : 'black';
-
+		
         app.mobile = new kendo.mobile.Application(document.body, {
             transition: 'slide',
             statusBarStyle: statusBarStyle,
             skin: 'flat'
-        });
-
-        app.everlive = new Everlive({
-            apiKey: app.config.everlive.apiKey,
-            scheme: app.config.everlive.scheme
-        });
+        });        
     };
 
     document.addEventListener('deviceready', onDeviceReady, false);

@@ -53,7 +53,7 @@
                 dataSource.Email)
                 .then(function () {
                         app.showAlert("Registration successful");
-                        app.navigateToView(app.config.views.main);
+ 					   app.navigateToView("#initView");
                     },
                     function (err) {
                         app.showError(err.message);

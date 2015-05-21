@@ -26,7 +26,8 @@
     "android.permission.WRITE_EXTERNAL_STORAGE"
   ],
   "CorePlugins": [
-    "com.telerik.feedback@1.4",
+    "com.phonegap.plugins.PushPlugin@2.5.5",
+    "com.telerik.feedback",
     "org.apache.cordova.device",
     "org.apache.cordova.device-orientation",
     "org.apache.cordova.dialogs",
@@ -39,7 +40,7 @@
     "Landscape"
   ],
   "iOSStatusBarStyle": "Default",
-  "AndroidHardwareAcceleration": "false",
+  "AndroidHardwareAcceleration": "true",
   "WP8SupportedResolutions": [
     "ID_RESOLUTION_WVGA",
     "ID_RESOLUTION_WXGA",
@@ -57,13 +58,13 @@
   "AndroidVersionCode": "1",
   "WP8Requirements": [],
   "WP8Capabilities": [],
-  "WP8TileTitle": "",
+  "WP8TileTitle": "Push Demo App",
   "WP8ProductID": "{f6aa10b5-74a3-4b54-bfc8-2e3db2ed4bb4}",
   "WP8PublisherID": "{189efa1b-b563-4a60-b4bf-4d350867391f}",
   "WP8Publisher": "",
   "Framework": "Cordova",
-  "CordovaPluginVariables": {},
   "projectVersion": "1",
   "WP8WindowsPublisherName": "CN=Telerik",
-  "WP8PackageIdentityName": "1234Telerik.com.telerik.plugindemo.pushnotificatio"
+  "WP8PackageIdentityName": "1234Telerik.com.telerik.plugindemo.pushnotificatio",
+  "WPSdk": "8.0"
 }
