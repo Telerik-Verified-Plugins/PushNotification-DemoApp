@@ -56,7 +56,7 @@
  					   app.navigateToView("#initView");
                     },
                     function (err) {
-                        app.showError(err.message);
+                				app.showError(JSON.stringify(err));
                     });
         };
 

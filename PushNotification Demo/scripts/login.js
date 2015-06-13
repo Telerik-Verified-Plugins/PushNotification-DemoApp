@@ -40,7 +40,7 @@
                 app.navigateToView(app.config.views.main);
             }, function(err) {
                 app.hideLoading();
-                app.showError(err.message);
+                app.showError(JSON.stringify(err));
             });
         };
         

@@ -24,10 +24,12 @@
 	    	enableShake: true // shake to show the feedback dialog, default true
 		};
 
-		window.feedback.initialize(
-		    "65902400-041f-11e4-be38-73f40f037825",
-		    feedbackOptions
-		);
+    if (window.feedback !== undefined) {
+			window.feedback.initialize(
+			    "65902400-041f-11e4-be38-73f40f037825",
+			    feedbackOptions
+			);
+    }
 
         navigator.splashscreen.hide();
         

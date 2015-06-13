@@ -9,6 +9,12 @@
 
     <script src="cordova.js"></script>
     
+  <script>
+    window.oneror = function(a,b,c) {
+	  	alert(a);
+  		alert(c);
+		}
+  </script>
     <script src="lib/kendo/js/jquery.min.js"></script>
     <script src="lib/kendo/js/kendo.mobile.min.js"></script>
     
@@ -18,7 +24,7 @@
 
     <script src="scripts/config.js"></script>
     <script src="scripts/common.js"></script>
-	<script src="scripts/app.js"></script>
+		<script src="scripts/app.js"></script>
     <script src="scripts/login.js"></script>
     <script src="scripts/push-registrar.js"></script>
     <script src="scripts/push-factory.js"></script>
