@@ -26,11 +26,12 @@
     "android.permission.WRITE_EXTERNAL_STORAGE"
   ],
   "CorePlugins": [
-    "com.phonegap.plugins.PushPlugin@2.5.5",
     "cordova-plugin-console",
     "cordova-plugin-dialogs",
     "cordova-plugin-splashscreen",
-    "cordova-plugin-statusbar"
+    "cordova-plugin-statusbar",
+    "cordova-plugin-whitelist",
+    "com.phonegap.plugins.PushPlugin@3.0.1"
   ],
   "DeviceOrientations": [
     "Portrait",
