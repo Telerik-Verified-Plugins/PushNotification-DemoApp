@@ -13,7 +13,7 @@
     };
 
 	app.everlive = new Everlive({
-            appId: app.config.everlive.appId,
+            apiKey: app.config.everlive.apiKey,
             scheme: app.config.everlive.scheme
         });
 	
@@ -33,7 +33,7 @@
 		}
         navigator.splashscreen.hide();
         
-        if (!app.isKeySet(app.config.everlive.appId)) {
+        if (!app.isKeySet(app.config.everlive.apiKey)) {
             $(app.config.views.init).hide();
             $('#pushApp').addClass('noapikey-scrn').html(app.constants.NO_API_KEY_MESSAGE);
             return;
