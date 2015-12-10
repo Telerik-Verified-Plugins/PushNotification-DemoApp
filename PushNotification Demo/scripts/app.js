@@ -13,7 +13,7 @@
     };
 
 	app.everlive = new Everlive({
-            apiKey: app.config.everlive.apiKey,
+            appId: app.config.everlive.appId,
             scheme: app.config.everlive.scheme
         });
 	
@@ -24,16 +24,16 @@
 	    	enableShake: true // shake to show the feedback dialog, default true
 		};
 
-    if (window.feedback !== undefined) {
-			window.feedback.initialize(
-			    "65902400-041f-11e4-be38-73f40f037825",
-			    feedbackOptions
-			);
-    }
+		if (window.feedback) {
+		    window.feedback.initialize(
+		    "65902400-041f-11e4-be38-73f40f037825",
+		    feedbackOptions
+		);
 
+		}
         navigator.splashscreen.hide();
         
-        if (!app.isKeySet(app.config.everlive.apiKey)) {
+        if (!app.isKeySet(app.config.everlive.appId)) {
             $(app.config.views.init).hide();
             $('#pushApp').addClass('noapikey-scrn').html(app.constants.NO_API_KEY_MESSAGE);
             return;

@@ -4,7 +4,7 @@
   "AppIdentifier": "com.telerik.plugindemo.pushnotification",
   "ProjectName": "PushNotification Demo",
   "IsRunnable": "true",
-  "FrameworkVersion": "4.0.0",
+  "FrameworkVersion": "3.7.0",
   "AndroidPermissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
@@ -26,12 +26,14 @@
     "android.permission.WRITE_EXTERNAL_STORAGE"
   ],
   "CorePlugins": [
-    "cordova-plugin-console",
-    "cordova-plugin-dialogs",
-    "cordova-plugin-splashscreen",
-    "cordova-plugin-statusbar",
-    "cordova-plugin-whitelist",
-    "com.phonegap.plugins.PushPlugin@3.0.1"
+    "com.phonegap.plugins.PushPlugin@3.0.2",
+    "com.telerik.feedback@2.0.0",
+    "org.apache.cordova.device",
+    "org.apache.cordova.device-orientation",
+    "org.apache.cordova.dialogs",
+    "org.apache.cordova.globalization",
+    "org.apache.cordova.network-information",
+    "org.apache.cordova.splashscreen"
   ],
   "DeviceOrientations": [
     "Portrait",
@@ -64,6 +66,5 @@
   "projectVersion": "1",
   "WP8WindowsPublisherName": "CN=Telerik",
   "WP8PackageIdentityName": "1234Telerik.com.telerik.plugindemo.pushnotificatio",
-  "WPSdk": "8.0",
-  "CordovaPluginVariables": {}
+  "WPSdk": "8.0"
 }
