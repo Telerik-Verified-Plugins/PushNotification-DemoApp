@@ -1,6 +1,6 @@
 # Advanced Push Notifications Sample App for PhoneGap/Cordova
 
-<a href="https://platform.telerik.com/#appbuilder/clone/https://github.com/telerik/backend-services-push-hybrid-advanced.git" target="_blank"><img src="http://docs.telerik.com/platform/samples/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in Telerik Platform" /></a>
+<a href="https://platform.telerik.com/#appbuilder/clone/https://github.com/Telerik-Verified-Plugins/PushNotification-DemoApp.git" target="_blank"><img src="http://docs.telerik.com/platform/samples/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in Telerik Platform" /></a>
 
 <a id="top"></a>
 * [Overview](#overview)
