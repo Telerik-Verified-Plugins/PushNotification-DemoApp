@@ -1,5 +1,7 @@
 # Advanced Push Notifications Sample App for PhoneGap/Cordova
 
+> **IMPORTANT** This sample is deprecated and will no longer be maintained. To learn how to integrate push notifications in your app with Telerik Platform, see the [Basic Push sample hybrid app](http://docs.telerik.com/platform/samples/backend-services-push-hybrid/) or the [Advanced Push sample hybrid app](http://docs.telerik.com/platform/samples/backend-services-push-hybrid-advanced/). 
+
 <a href="https://platform.telerik.com/#appbuilder/clone/https://github.com/Telerik-Verified-Plugins/PushNotification-DemoApp.git" target="_blank"><img src="http://docs.telerik.com/platform/samples/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in Telerik Platform" /></a>
 
 <a id="top"></a>
